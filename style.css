@@ -1,0 +1,139 @@
+.navbar{
+    background-color:white !important;
+    
+}
+.nav-link{
+    color: #294c53 !important;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    color: #ca8b38 !important;
+    font-weight: bold !important;
+    text-shadow:1px 1px 1px gray ;
+    
+    
+}
+.nav-link,.dropdown-item{
+    color: #294c53 !important;
+    font-weight: bold !important;
+}
+.nav-link,.dropdown-item:hover{
+    color: #ca8b38 !important;
+    font-weight: bold !important;
+    text-shadow:1px 1px 1px gray ;
+}
+.slide{
+    margin-top: 130px !important;
+}
+.fa-shopping-cart, .fa-user-circle-o {
+    font-size: 32px !important;
+    color: #ca8b38;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color:  #ca8b38 !important;
+}
+.fa-search{
+    color:#ca8b38 ;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainCard h3{
+    color:  #294c53 !important;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+
+    }
+}
+
+.services{
+    margin-top: 20px;
+}
+.services h3{
+    color: #294c53 !important;
+    font-weight: bold;
+    text-shadow:1px 2px 3px  #294c53 ;
+}
+.hotOffers{
+    margin-top: 50px;
+}
+.card{
+    width: auto;
+    height: auto !important;
+    margin-bottom: 10px;
+
+}
+.card h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #ca8b38;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color:#294c53 ;
+    margin: 20px;
+    
+}
+.heading h1{
+    text-shadow: 2px 2px 4px black;
+}
+.fa-facebook-f,.fa-twitter,.fa-google,.fa-instagram,.fa-home,.fa-envelope,.fa-print,.fa-phone{
+    color: #ca8b38;
+    
+}
+.foot-text a,p{
+    color:#294c53 !important;
+}
+.main{
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.main h1{
+    margin-top: 20px;
+    text-align: center;
+    color:#294c53 !important;
+    text-shadow: 2px 2px 4px black;
+}
+.main p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-weight: bold;
+    
+    color: #ca8b38 !important;
+
+
+}
+.main ul li{
+    color: #ca8b38 !important; 
+    font-weight: bold;
+}
+.all{
+    margin-top: 80px;
+}
+.team{
+    margin-top: 150px;
+}
